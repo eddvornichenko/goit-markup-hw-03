@@ -59,16 +59,18 @@ img {
 }
 /* reset end */
 .container {
-  max-width: 1128px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
 /* HEADER */
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--cornflower);
 }
 .web-logo {
   font-family: "Raleway", sans-serif;
