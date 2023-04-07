@@ -60,7 +60,7 @@ img {
 /* reset end */
 .container {
   max-width: 1158px;
-  padding: 0 15px;
+  /* padding: 0 15px; */
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -136,9 +136,11 @@ img {
   color: var(--ocean);
 }
 /* HERO SECTION */
+.hero-section-container {
+  padding: 188px 0;
+}
 .hero-section {
   background-color: var(--navy-blue);
-  padding-bottom: 185px;
 }
 .hero-section-title {
   font-size: 56px;
@@ -146,8 +148,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
-  padding-top: 188px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -162,9 +163,10 @@ img {
   background: var(--iris);
   cursor: pointer;
   min-width: 169px;
-  min-height: 56px;
+  height: 56px;
   margin: 0 auto;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   padding: 15px 31px;
 }
@@ -240,31 +242,44 @@ img {
 }
 
 /* Skills section */
-.skills-section-container {
-  padding-top: 123px;
+.skills-section {
+  padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .skills-container {
   display: flex;
   gap: 24px;
 }
+.skills-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 /* Products section */
+.products-section {
+  padding-bottom: 120px;
+}
 .section-title {
   margin-bottom: 72px;
 }
 .products-container {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+}
+.products-item {
+  flex-basis: calc((100% - 48px) / 3);
 }
 /* Our team section */
-.our-team-container {
+.our-team-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .team-container {
   display: flex;
   gap: 24px;
+}
+.teams-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 /* Footer */
 .footer-container {
