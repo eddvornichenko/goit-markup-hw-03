@@ -59,7 +59,7 @@ img {
 }
 /* reset end */
 .container {
-  width: 1158px;
+  max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
   /* outline: 2px solid red; */
@@ -302,7 +302,7 @@ img {
 }
 /* Portfolio */
 .filter-section {
-  padding: 96px 0 120px;
+  padding: 96px 120px;
 }
 .button-list {
   display: flex;
