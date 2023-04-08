@@ -138,9 +138,7 @@ img {
   color: var(--ocean);
 }
 /* HERO SECTION */
-.hero-section-container {
-  /* padding: 188px 0; */
-}
+
 .hero-section {
   background-color: var(--navy-blue);
   padding: 188px 0;
