@@ -302,3 +302,9 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+/* Portfolio */
+.filter-section {
+  padding: 96px 120px;
+}
+.gallery-container {
+}
