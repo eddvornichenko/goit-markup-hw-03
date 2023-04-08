@@ -237,8 +237,7 @@ img {
 }
 /* Skills section */
 .skills-section {
-  padding-top: 123px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .skills-container {
