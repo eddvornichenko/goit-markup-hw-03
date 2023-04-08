@@ -62,7 +62,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 /* HEADER */
 .header {
@@ -320,4 +320,21 @@ img {
 .filter-button:hover,
 .filter-button:focus {
   border: 1px solid transparent;
+}
+.gallery-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.gallery-card {
+  width: calc((100% - 48px) / 3);
+}
+.app-name {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
+}
+.app-subtitle {
+  margin-bottom: 8px;
 }
