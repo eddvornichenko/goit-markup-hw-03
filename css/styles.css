@@ -306,5 +306,18 @@ img {
 .filter-section {
   padding: 96px 120px;
 }
-.gallery-container {
+.button-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+.filter-button {
+  padding: 12px 24px;
+  border: 1px solid var(--cornflower);
+  border-radius: 4px;
+}
+.filter-button:hover,
+.filter-button:focus {
+  border: 1px solid transparent;
 }
