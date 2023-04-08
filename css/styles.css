@@ -138,10 +138,11 @@ img {
 }
 /* HERO SECTION */
 .hero-section-container {
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 .hero-section {
   background-color: var(--navy-blue);
+  padding: 188px 0;
 }
 .hero-section-title {
   font-size: 56px;
