@@ -286,9 +286,12 @@ img {
   text-align: center;
 }
 /* Footer */
-.footer-container {
+.footer-section {
+  padding: 100px 0;
+}
+/* .footer-container {
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 100px; */
 }
 .footer-text {
   width: 264px;
