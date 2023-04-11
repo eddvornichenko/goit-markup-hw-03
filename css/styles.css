@@ -302,7 +302,7 @@ img {
 }
 /* Portfolio */
 .filter-section {
-  padding: 96px 120px;
+  padding: 96px 0 120px;
 }
 .button-list {
   display: flex;
